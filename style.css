@@ -1,0 +1,104 @@
+body {
+    /* background-color: #f1f1f1; */
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+}
+
+.container {
+    width: 1230px;
+    margin: auto;
+}
+
+header {
+    padding: 15px 30px;
+    display: flex;
+}
+
+.header_avatar {
+    width: 215px;
+    height: 245px;
+    background-image: url('img/ava.jpg');
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.header_about {
+    margin-left: 30px;
+    font-size: 14px;
+/* color: #e58e26; */
+    
+}
+
+h3 {
+    margin-left: 30px;
+}
+
+.education {
+    display: flex;
+    margin-left: 30px ;
+}
+
+.education_year {
+    width: 90px;
+}
+
+.education_univer {
+    margin-left: 20px;
+    line-height: 20px;
+}
+
+.experience {
+    margin-left: 30px;
+}
+
+.experience_ifns {
+    display: flex;
+}
+
+.experience_mfc {
+    display: flex;
+}
+
+.experience_sber {
+    display: flex;
+}
+
+.experience_work {
+    width: 520px;
+    margin-left: 20px;
+   
+}
+
+.experience_year {
+    width: 90px;
+}
+
+.experience_name {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.experience_description {
+    /* width: 500px; */
+    /* margin-left: 20px; */
+     margin-bottom: 10px;
+     line-height: 20px;
+}
+
+.skills {
+    margin: 30px;
+    display: block;
+}
+
+.skill {
+    margin: 20px 0px;
+}
+
+.skill span {
+   margin: 15px 5px;
+   padding: 5px;
+   border: 1px solid rgb(194, 191, 191);
+   border-radius: 10px;
+
+}
